@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition and Transform effect</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #box{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            height: 150px;
+            width: 150px;
+            transition: height 6s,width 6s;
+                         
+        }
+        #box:hover{
+             background-color: greenyellow;
+             height: 300px;
+             width: 300px;
+             border-radius: 20px;
+             font-size: 20px;
+             
+        }
+    </style>
+</head>
+<body>
+    <h3>Welcome to my Web page</h3>
+    <div class="container">
+        <div id="box">
+           Welcome to my web development cource
+        </div>
+    </div>
+</body>
+</html>

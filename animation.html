@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation file</title>
+    <style>
+        .container{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            justify-content: center;
+            align-items: center;
+            display: flex; 
+            animation: ani 12s infinite;
+            color: yellow;
+            position: relative;
+
+         }
+        @keyframes ani{
+
+            0%{background-color: blue;
+                top: 0px;
+                left: 0px; 
+            }
+            25%{background-color: black;
+                top: 0px;
+                left: 100px;
+            }
+            50%{background-color: brown;
+                top: 200px;
+                left: 100px;
+            }
+            75%{background-color: aqua;
+                top: 200px;
+                left: 0;
+            }
+            100%{background-color: deepskyblue;
+                top: 0px;
+                left: 0px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <p>Welcome to the Web development cource</p>
+    </div>
+                                                           
+</body>
+</html>

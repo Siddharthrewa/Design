@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    border: 2px solid silver;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navlogo{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  
+}
+.navlogo img{
+    width: 98px;
+    height: 98px;
+    border: 0.3px solid black;
+}
+.content{
+    width: 70vh;
+    height: 100%;
+    margin: 10px;
+}
+.content ul{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+}
+.content ul li{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;  
+}
+.content ul :hover{
+    cursor: pointer;
+    color: blue;
+}
+.image{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.photos{
+    background-image: url(https://images.unsplash.com/photo-1681210974423-89e86024f27a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: 23rem;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+.gallery{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.content2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content2 img{
+    height: auto;
+    width: 15rem;
+}
+#rock{
+    width: 16rem;
+    height: 360px;
+}
+.secondcontent{
+    height: auto;
+    width: 100% ;
+}
+.bigimg{
+    width: 60%;
+    height: 20rem;
+    position: relative;
+    margin: 50px;
+}
+.smallimg{
+     width: 45%;
+     height: 15rem;
+     position: absolute;
+     margin-left: 40%;
+     margin-top: -30%;
+}

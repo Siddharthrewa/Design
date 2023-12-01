@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.navlogo{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.navlogo img{
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    border-radius: 2px;
+    border-radius: 50%;
+}
+.content{
+    width: 30%;
+    height: 100%;
+}
+.content ul{
+    height: 100%;
+    width: 100%;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}.content ul li{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+.content ul li:hover{
+    cursor: pointer;
+    color: blue;
+     
+}
+.banner{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+} .images{
+    background-image:url(https://images.unsplash.com/photo-1669986884742-87f61afc027d?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D) ;
+    width: 100%;
+    height: 23rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}.gallery{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.firstcontent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstcontent img{
+    height: auto;
+    width: 15rem;
+}
+.secondcontent{
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+}
+
+.bigimg{
+    width: 65%;
+    height: 20rem;
+    margin: -4rem 5rem 10rem 5rem ;
+    position: relative;
+    z-index: -1;
+}
+.smallimg{
+    height: 15rem;
+    width: 50%;
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: -18rem ;
+    z-index: 1;
+    padding: 35px;
+
+}
